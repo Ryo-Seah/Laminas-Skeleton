@@ -31,16 +31,6 @@ return [
                     ],
                 ],
             ],
-            'album' => [
-                'type'    => Segment::class,
-                'options' => [
-                    'route'    => '/album[/:action]',
-                    'defaults' => [
-                        'controller' => Controller\IndexController::class,
-                        'action'     => 'index',
-                    ],
-                ],
-            ],
         ],
     ],
     'controllers' => [
